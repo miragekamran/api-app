@@ -11,7 +11,7 @@ server.use(express.json())
 server.use(cors())
 
 server.get('/api/hello', (req, res) => {
-    res.json({message: 'API is working'})
+    res.json({message: 'API is working from my computer'})
 })
 
 server.use('*', (req, res) => {
